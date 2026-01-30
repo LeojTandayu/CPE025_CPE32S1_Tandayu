@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Spider Man Survey Form</title>
+    <h1 id="Title">Spider Man Survey Form</h1>
+    <p id="Description">This is to identify the best spiderman in the spiderverse.</p>
+</head>
+<body>
+    <form id="surveyform">
+        <label id="name-label"> Name </label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Write down your name"
+                required
+            >
+        <br><br>
+        <label id="email-label"> Email </label>
+            <input
+                type="email"
+                id="email"
+                email="email"
+                placeholder="Write down your email"
+                required
+            >
+        <br><br>
+        <label id="number-label"> Age </label>
+            <input
+                type="number"
+                id="number"
+                number="number"
+                placeholder="Write down a number"
+                min="0"
+                max="99"
+                required
+            >
+            <br><br>
+
+            <label id="dropdown"> T.I.P. Campus</label>
+            <select id="dropdown" required>
+                <option value="">T.I.P. Campus</option> 
+                <option value="T.I.P. Quezon City">T.I.P. Quezon City</option>
+                <option value="T.I.P. Manila">T.I.P. Manila</option>
+            </select>
+            <br><br>
+
+            <img src="https://i.redd.it/a165wzt085zb1.jpg" width="200" height="200" alt="Tobey Maguire">
+            <img src="https://wallpapers.com/images/hd/andrew-garfield-spider-man-l58ocytplscjvad0.jpg" width="250" height="200" alt="Andrew Garfield">
+            <img src="https://media.gq-magazine.co.uk/photos/63468efef4f48bee2acb7062/3:2/w_1620,h_1080,c_limit/Tom-Holland-Spiderman-what-we-know-so-far.jpg" width="300" height="200" alt="Tom Holland">
+            
+            <br><br>
+            <p>Best Spiderman</p>
+            <label>
+                <input type="radio" name="option-a" value="option-a" required>
+            Tobey Maguire
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="option-a" value="option-a" required>
+            Andrew Garfield
+            </label>
+            <br>
+            <input type="radio" name="option-a" value="option-a" required>
+            Tom Holland
+            </label>
+            <br><br>
+
+            <p>My Spiderman Crush</p>
+            <label>
+                <input type="checkbox" value="option-a">
+                Tobey Maguire
+                </label>
+            <br>
+
+            <label>
+                <input type="checkbox" value="option-a">
+                Andrew Garfield
+                </label>
+            <br>
+
+            <label>
+                <input type="checkbox" value="option-a">
+                Tom Holland
+                </label>
+            <br>
+
+            <textarea rows="2" cols="10" placeholder="Who is the best spiderman in your opinion?">
+            </textarea>
+            <br><br>
+
+            <button type="submit" type="submit">Submit</button>
+        </form>
+    </body>
+</html>
